@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ignore raw data files
+data/raw/*
+
+# Keep the folder structure in Git
+!data/raw/.gitkeep
